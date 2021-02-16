@@ -1,0 +1,12 @@
+# gMNd
+gMNd is my gemini server. It is written in python, with the primary purpose to serve this content. You are very welcome to try it out however.
+
+Currently it only serves static files.
+
+# Docs
+Some documention is available here:
+=> gemini://mic.ke/gmnd/docs/
+
+# Github
+Source code is on github:
+=> https://github.com/mickenordin/gmnd

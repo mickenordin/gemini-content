@@ -8,8 +8,8 @@
 
 # Welcome to Micke's gemini capsule                     
 
-I am very new to gemini, but this capsule runs on my own crude gemini server implementation that you can find here:
-=> https://github.com/mickenordin/gmnd
+I am very new to gemini, but this capsule runs on my own crude gemini server implementation that you can find some information about here:
+=> gemini://mic.ke/gmnd
 
 If you want to talk to me you can find me on:
 => https://koyu.space/@micke
