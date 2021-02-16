@@ -14,7 +14,7 @@ I am very new to gemini, but this capsule runs on my own crude gemini server imp
 If you want to talk to me you can find me on:
 => https://koyu.space/@micke
 
-For your emusement, here is an ascii art image of me:
+For your amusement, here is an ascii art image of me:
 
 ```
 .................... .  ,.....,#%&&&&&&&&&#.                     ..&&&&#(/. ...*
