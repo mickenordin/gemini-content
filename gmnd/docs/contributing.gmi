@@ -1,0 +1,10 @@
+# Contributing
+
+Although this is a hobby project, you are welcome to use and contribute to the project. It is free software after all.
+
+Feel free to talk to me on mastodon or open an issue/pr on github if you can contribute code to the project.
+=> https://koyu.space/@micke
+=> https://github.com/mickenordin/gmnd
+
+..
+=> gemini://mic.ke/gmnd/docs/index.gmi back to gmnd/docs/

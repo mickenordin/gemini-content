@@ -5,4 +5,4 @@
 => gemini://mic.ke/gmnd/docs/licensing.gmi gMNd is free software!
 
 ..
-=> gemini://mic.ke/gmnd/docs/index.gmi back to gmnd/
+=> gemini://mic.ke/gmnd/index.gmi back to gmnd/
