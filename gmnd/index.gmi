@@ -10,3 +10,6 @@ Some documention is available here:
 # Github
 Source code is on github:
 => https://github.com/mickenordin/gmnd
+
+..
+=> gemini://mic.ke go up to /
