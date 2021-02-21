@@ -1,7 +1,7 @@
 # gMNd
 gMNd is my gemini server. It is written in python, with the primary purpose to serve this content. You are very welcome to try it out however.
 
-Currently it only serves static files.
+Currently it can both serves static files, or at your option generate dynamic content using cgi-scripts.
 
 # Docs
 Some documention is available here:

@@ -1,0 +1,30 @@
+gMNd has a config file in yaml format that you can supply on the command line with either of these options
+  -f
+  --file
+
+This is the example config, supplied with the server
+```
+---
+allow_dir_list: true
+listen_addr: '0.0.0.0'
+logg_level: 'DEBUG'
+cgi_registry:
+     /envtest.*: 
+      - ./cgi-bin/envtest.sh
+```
+This enables directory indexing, sets the listen address to 0.0.0.0 (all interfaces), the log level to DEBUG and registres the scrip ./cgi-bin/envtest.sh to serv content for any path that matches the regex /envtest.*.
+
+A full list of options are here:
+```
+allow_dir_list = true/false, default false
+base_path = the server root where you serve content from, default ./content
+cgi_registry = you can set different cgi scripts to server content for different paths, no default
+listen_addr = the ip address to listen to, default 127.0.0.1
+listen_port = the port to listen to, default 1965
+logg_level  = any of "CRITICAL", "DEBUG", "ERROR", "INFO", "NOTSET", "WARNING", defult is INFO
+server_cert = the path to the TLS cert, default ./certs/cert.pem
+server_key = the path to the TLS key, default ./certs/cert.key
+```
+
+..
+=> gemini://mic.ke/gmnd/docs/index.gmi back to gmnd/docs/

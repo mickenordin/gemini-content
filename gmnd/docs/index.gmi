@@ -1,6 +1,7 @@
 # gMNd Documentation
 
 => gemini://mic.ke/gmnd/docs/running.gmi How to run gMNd
+=> gemini://mic.ke/gmnd/docs/configure.gmi How to configure gMNd
 => gemini://mic.ke/gmnd/docs/contributing.gmi How to contribute to gMNd
 => gemini://mic.ke/gmnd/docs/licensing.gmi gMNd is free software!
 
