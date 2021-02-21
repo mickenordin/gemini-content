@@ -12,11 +12,11 @@ cgi_registry:
      /envtest.*: 
       - ./cgi-bin/envtest.sh
 ```
-This enables directory indexing, sets the listen address to 0.0.0.0 (all interfaces), the log level to DEBUG and registres the scrip ./cgi-bin/envtest.sh to serv content for any path that matches the regex /envtest.*.
+This enables directory indexing, sets the listen address to 0.0.0.0 (all interfaces), the log level to DEBUG and registers the script ./cgi-bin/envtest.sh to serve content for any path that matches the regex /envtest.*.
 
 A full list of options are here:
 ```
-allow_dir_list = true/false, default false
+allow_dir_list = true/false, default false (global option for now!)
 base_path = the server root where you serve content from, default ./content
 cgi_registry = you can set different cgi scripts to server content for different paths, no default
 listen_addr = the ip address to listen to, default 127.0.0.1
