@@ -1,19 +1,16 @@
- You can build and run it from the supplied Dockerfile if you so whish:
+# Run gMNd
+
+The simplest thing is to install using the deb or rpm:
+=> gemnini://mic.ke/gmnd/docs/installing.gmi
+
+After that you can run it like this:
 ```
-docker build -t gmnd:latest .
+# systemctl start gmnd
 ```
-By just running it, it will create self signed certs and serve example content from this repo:
-```
-docker run -p 1965:1965 gmnd
-```
-A slightly more interesting thing it can do is serve your own content, in this example from /tmp/content and dynamic content from /tmp/cgi-bin on your host machine:
-```
-docker run --mount type=bind,source="/tmp/content,target=/app/content" --mount type=bind,source="/tmp/ccgi-bin,target=/app/cgi-bin"-p 1965:1965 gmnd
-```
-Or even supply your own certificates from the outside, in this example in /usr/local/certs with static content from /tmp/content:
-```
-docker run --mount type=bind,source="/tmp/content,target=/app/content" --mount type=bind,source="/usr/local/certs,target=/app/certs" -p 1965:1965 gmnd
-```
+Running in docker is covered in the install docs above.
+
+See information here about configuration options:
+=> gemini://mic.ke/gmnd/docs/configure.gmi
 
 ..
 => gemini://mic.ke/gmnd/docs/index.gmi back to gmnd/docs/

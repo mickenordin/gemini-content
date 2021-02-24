@@ -1,5 +1,6 @@
 # gMNd Documentation
 
+=> gemini://mic.ke/gmnd/docs/installing.gmi How to install gMNd
 => gemini://mic.ke/gmnd/docs/running.gmi How to run gMNd
 => gemini://mic.ke/gmnd/docs/configure.gmi How to configure gMNd
 => gemini://mic.ke/gmnd/docs/contributing.gmi How to contribute to gMNd
