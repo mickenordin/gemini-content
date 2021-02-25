@@ -20,7 +20,7 @@ base_path: /var/gemini/gemtext
 server_cert: /etc/ssl/certs/ssl-cert-snakeoil.pem
 server_key: /etc/ssl/private/ssl-cert-snakeoil.key
 ```
-This enables directory indexing, sets the listen address to 0.0.0.0 (all interfaces), the log level to DEBUG and registers the script ./cgi-bin/envtest.sh to serve content for any path that matches the regex /envtest.*.
+If you uncomment the options it enables directory indexing, sets the listen address to 0.0.0.0 (all interfaces), the log level to DEBUG and registers the script ./cgi-bin/envtest.sh to serve content for any path that matches the regex /envtest.*.
 
 Notice that snakeoil certs won't actually work, you should generate your own certificates. This is a guide that should wortkll for you:
 => gemini://republic.circumlunar.space/users/andybalaam/blogmirror/2019-05-02_creating_a_self_signed_certificate_for_apache_and_connecting_to_i.gmi
