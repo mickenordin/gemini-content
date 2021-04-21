@@ -7,7 +7,7 @@ Currently it can both serves static files, or at your option generate dynamic co
 Some documention is available here:
 => gemini://mic.ke/gmnd/docs/
 
-# Github
+# Source code
 Source code is on code.smolnet.org:
 => https://code.smolnet.org/micke/gmnd
 
