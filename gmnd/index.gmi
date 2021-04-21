@@ -8,8 +8,8 @@ Some documention is available here:
 => gemini://mic.ke/gmnd/docs/
 
 # Github
-Source code is on github:
-=> https://github.com/mickenordin/gmnd
+Source code is on code.smolnet.org:
+=> https://code.smolnet.org/micke/gmnd
 
 ..
 => gemini://mic.ke go up to /
